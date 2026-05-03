@@ -1,0 +1,39 @@
+{
+  "contributors": [
+    {
+      "github_login": "nidhi-9900",
+      "gpg_verified": true,
+      "gpg_fingerprint": "ABC123DEF456",
+      "vc_issued": true,
+      "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK"
+    },
+    {
+      "github_login": "alice-dev",
+      "gpg_verified": true,
+      "gpg_fingerprint": "XYZ789ABC123",
+      "vc_issued": true,
+      "did": "did:key:z6MkpTHR8VNsBxYAAWHut2GyaJ8G6C2JhbkWkMcBCNGF1gGS"
+    },
+    {
+      "github_login": "bob-dev",
+      "gpg_verified": true,
+      "gpg_fingerprint": "DEF789GHI012",
+      "vc_issued": false,
+      "did": null
+    },
+    {
+      "github_login": "carol-dev",
+      "gpg_verified": false,
+      "gpg_fingerprint": null,
+      "vc_issued": false,
+      "did": null
+    },
+    {
+      "github_login": "dave-dev",
+      "gpg_verified": false,
+      "gpg_fingerprint": null,
+      "vc_issued": true,
+      "did": "did:key:z6MkrCD7And33fXRoFHNDPCf9CtDmGpGMjFGKsARM4SGTNKK"
+    }
+  ]
+}

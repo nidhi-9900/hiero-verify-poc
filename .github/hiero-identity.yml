@@ -1,0 +1,4 @@
+hiero-identity:
+  required_trust_level: VERIFIED
+  allow_gpg_only: false
+  mode: block
