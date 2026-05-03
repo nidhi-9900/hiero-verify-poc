@@ -187,5 +187,110 @@
     },
     "id": "5e044b6a-85a1-4fee-8b2a-65e34507234f",
     "checked_at": "2026-05-03T02:18:08.719Z"
+  },
+  {
+    "pr_number": 13,
+    "repo": "hiero-verify-test",
+    "owner": "nidhi-9900",
+    "author": "nidhi-9900",
+    "sha": "b99d569e82711635b69e7afaf39669647193dfe4",
+    "verdict": "VERIFIED",
+    "reason_code": "BOTH_GPG_AND_VC_PRESENT",
+    "gpg": {
+      "verified": true,
+      "fingerprint": "ABC123DEF456",
+      "reason": "GPG key found"
+    },
+    "vc": {
+      "found": true,
+      "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+      "reason": "Valid credential found"
+    },
+    "id": "d690da63-3e0a-4239-9171-5de1c13a1f5a",
+    "checked_at": "2026-05-03T02:53:10.631Z"
+  },
+  {
+    "pr_number": 14,
+    "repo": "hiero-verify-test",
+    "owner": "nidhi-9900",
+    "author": "nidhi-9900",
+    "sha": "66fa3374d2fbba537a5c8ad1d75efd5f3373f117",
+    "verdict": "VERIFIED",
+    "reason_code": "BOTH_GPG_AND_VC_PRESENT",
+    "gpg": {
+      "verified": true,
+      "fingerprint": "ABC123DEF456",
+      "reason": "GPG key found"
+    },
+    "vc": {
+      "found": true,
+      "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+      "reason": "Valid credential found"
+    },
+    "id": "bf2b9f31-4ab7-4765-a8af-9f9604e2ae32",
+    "checked_at": "2026-05-03T02:57:40.477Z"
+  },
+  {
+    "pr_number": 15,
+    "repo": "hiero-verify-test",
+    "owner": "nidhi-9900",
+    "author": "nidhi-9900",
+    "sha": "c6c565cf81446db91cd4a90d12f4b5bd1558d936",
+    "verdict": "PARTIAL_GPG_ONLY",
+    "reason_code": "GPG_VERIFIED_NO_VC",
+    "gpg": {
+      "verified": true,
+      "fingerprint": "ABC123DEF456",
+      "reason": "GPG key found"
+    },
+    "vc": {
+      "found": false,
+      "did": null,
+      "reason": "No credential issued — needs Heka onboarding"
+    },
+    "id": "32e0b188-162d-499a-96d5-9b46f8398656",
+    "checked_at": "2026-05-03T03:01:37.828Z"
+  },
+  {
+    "pr_number": 16,
+    "repo": "hiero-verify-test",
+    "owner": "nidhi-9900",
+    "author": "nidhi-9900",
+    "sha": "c0765d0b44e063acfdee606c20da36532cef9fbf",
+    "verdict": "UNVERIFIED",
+    "reason_code": "NO_IDENTITY_SIGNALS",
+    "gpg": {
+      "verified": false,
+      "fingerprint": null,
+      "reason": "No GPG key linked"
+    },
+    "vc": {
+      "found": false,
+      "did": null,
+      "reason": "No credential issued — needs Heka onboarding"
+    },
+    "id": "5b605132-9c57-4e5b-b6da-7a64c261befd",
+    "checked_at": "2026-05-03T03:04:29.970Z"
+  },
+  {
+    "pr_number": 17,
+    "repo": "hiero-verify-test",
+    "owner": "nidhi-9900",
+    "author": "nidhi-9900",
+    "sha": "ef8dd69acd51696674825d87c1ae268fe7a34e80",
+    "verdict": "VERIFIED",
+    "reason_code": "BOTH_GPG_AND_VC_PRESENT",
+    "gpg": {
+      "verified": true,
+      "fingerprint": "ABC123DEF456",
+      "reason": "GPG key found"
+    },
+    "vc": {
+      "found": true,
+      "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+      "reason": "Valid credential found"
+    },
+    "id": "1804f6a1-99f3-4635-89eb-72d353e47c7f",
+    "checked_at": "2026-05-03T03:49:43.004Z"
   }
 ]

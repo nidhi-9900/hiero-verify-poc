@@ -1,14 +1,14 @@
 {
   "contributors": [
     {
-      "github_login": "nidhi-9900",
-      "gpg_verified": true,
-      "gpg_fingerprint": "ABC123DEF456",
-      "vc_issued": true,
-      "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK"
-    },
+    "github_login": "nidhi-9900",
+    "gpg_verified": true,
+    "gpg_fingerprint": "ABC123DEF456",
+    "vc_issued": true,
+    "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK"
+    },  
     {
-      "github_login": "alice-dev",
+      "github_login": "alice-dev",  
       "gpg_verified": true,
       "gpg_fingerprint": "XYZ789ABC123",
       "vc_issued": true,

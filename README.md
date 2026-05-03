@@ -160,3 +160,25 @@ so the full pipeline can be demonstrated without real credentials.
 - [What This POC Proves](docs/WHAT_THIS_PROVES.md)
 - [Mentorship Issue #87](https://github.com/LF-Decentralized-Trust-Mentorships/    mentorship-program/issues/87)
 - [Heka Identity Platform](https://github.com/hiero-ledger/heka-identity-platform)
+
+## Demo
+
+All three verification states demonstrated on real GitHub pull requests.
+
+**VERIFIED** - contributor has both GPG key and Verifiable Credential
+
+![VERIFIED](demo/verified.png)    
+
+**PARTIAL** - contributor has GPG key but no Verifiable Credential
+
+![PARTIAL](demo/partial.png)
+
+**UNVERIFIED** - contributor has neither signal
+
+![UNVERIFIED](demo/unverified.png)
+
+**Audit Log** - full verification decision stored and queryable via API
+
+![Audit](demo/audit.png)
+
+
