@@ -149,7 +149,7 @@ so the full pipeline can be demonstrated without real credentials.
 ## What Gets Built in the Mentorship
 
 - Phase 2: real GPG verification using openpgp.js against GitHub keys
-- Phase 2: did:hedera anchoring using the Hashgraph DID SDK
+- Phase 2: did:hedera anchoring using the Hiero DID SDK (@hiero-did-sdk/client)
 - Phase 3: real Heka OID4VP credential presentation flow
 - Phase 3: contributor onboarding with Heka cloud wallet
 - Phase 4: VC revocation registry on Hedera
@@ -163,15 +163,19 @@ so the full pipeline can be demonstrated without real credentials.
 
 ## Demo
 
-All three verification states demonstrated on real GitHub pull requests.
+All four verification states demonstrated on real GitHub pull requests.
 
 **VERIFIED** - contributor has both GPG key and Verifiable Credential
 
 ![VERIFIED](demo/verified.png)    
 
-**PARTIAL** - contributor has GPG key but no Verifiable Credential
+**PARTIAL_GPG_ONLY** - contributor has GPG key but no Verifiable Credential
 
 ![PARTIAL](demo/partial.png)
+
+**PARTIAL_VC_ONLY** - contributor has Verifiable Credential but no GPG key
+
+![PARTIAL_VC_ONLY](demo/partial_vc_only.png)
 
 **UNVERIFIED** - contributor has neither signal
 

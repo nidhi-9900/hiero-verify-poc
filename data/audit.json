@@ -292,5 +292,26 @@
     },
     "id": "1804f6a1-99f3-4635-89eb-72d353e47c7f",
     "checked_at": "2026-05-03T03:49:43.004Z"
+  },
+  {
+    "pr_number": 20,
+    "repo": "hiero-verify-test",
+    "owner": "nidhi-9900",
+    "author": "nidhi-9900",
+    "sha": "be3af328cf23f015b0768ec943e430d3925869ed",
+    "verdict": "PARTIAL_VC_ONLY",
+    "reason_code": "VC_FOUND_NO_GPG",
+    "gpg": {
+      "verified": false,
+      "fingerprint": null,
+      "reason": "No GPG key linked"
+    },
+    "vc": {
+      "found": true,
+      "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK",
+      "reason": "Valid credential found"
+    },
+    "id": "fee8626f-13f5-4d27-aeaa-4648843fe09f",
+    "checked_at": "2026-05-11T09:39:04.289Z"
   }
 ]

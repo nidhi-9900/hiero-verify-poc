@@ -2,7 +2,7 @@
   "contributors": [
     {
     "github_login": "nidhi-9900",
-    "gpg_verified": true,
+    "gpg_verified": false,
     "gpg_fingerprint": "ABC123DEF456",
     "vc_issued": true,
     "did": "did:key:z6MkhaXgBZDvotDkL5257faiztiGiC2QtKLGpbnnEGta2doK"
