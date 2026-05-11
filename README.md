@@ -158,7 +158,7 @@ so the full pipeline can be demonstrated without real credentials.
 
 - [Credential Schema Design](docs/CREDENTIAL_SCHEMA.md)
 - [What This POC Proves](docs/WHAT_THIS_PROVES.md)
-- [Mentorship Issue #87](https://github.com/LF-Decentralized-Trust-Mentorships/    mentorship-program/issues/87)
+- [Mentorship Issue #87](https://github.com/LF-Decentralized-Trust-Mentorships/mentorship-program/issues/87)
 - [Heka Identity Platform](https://github.com/hiero-ledger/heka-identity-platform)
 
 ## Demo
